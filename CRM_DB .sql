@@ -1,4 +1,4 @@
--- customer5.csv(if text file .convert txt file to csv file using pandas)
+
 use june_ds1;
 -- 1. each prof count [count desc]
 select prof,count(*) as abc from customer5 group by prof order by abc desc;
